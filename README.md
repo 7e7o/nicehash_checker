@@ -22,14 +22,15 @@ optional arguments:
   -r, --human_readable  単位を付けて表示
 ```
 
-最初に引数なしでnhchecker.pyを実行するとnhchecker.pyと同じディレクトリにuser.jsonの雛形が作られるので、エディタで開いてaddrにBTCアドレス、IDにAPI ID、keyにAPI Key(ReadOnlyでOK)を埋めてください。API IDとAPI KeyはNiceHashにログインし、Settings -> APIにあります。
+最初に引数なしでnhchecker.pyを実行するとnhchecker.pyと同じディレクトリにuser.jsonの雛形が作られるので、エディタで開いてaddrにBTCアドレス、IDにAPI ID、keyにAPI Key(ReadOnlyでOK)を埋めてください。API IDとAPI KeyはNiceHashにログインし、Settings -> APIにあります。  
+![settings->API](https://i.imgur.com/gWpFhn9.jpg)
 
 ## Example
 
 ```
 % ./nhchecker.py -m -r stats
 0.502 mBTC
-0.485 mBTC/dat
+0.485 mBTC/day
 
 % ./nhchecker.py balance
 0.00777
